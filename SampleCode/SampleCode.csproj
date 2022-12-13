@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.StringManipulation</StartupObject>
+    <StartupObject>SampleCode.StrtEq</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

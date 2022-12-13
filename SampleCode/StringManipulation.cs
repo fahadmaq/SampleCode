@@ -32,4 +32,27 @@ namespace SampleCode
             
         }
     }
+    public class StrtEq
+    {
+        static void Main(string[] args)
+        {
+
+            string str1 = "gst";
+            string str2 = "csst";
+            char[] ch = { 'r', 't', 'n' };
+            object str3 = new String(ch);
+            Console.WriteLine(  str3);
+            bool res = str1.Equals(str3);
+            Console.WriteLine(res);
+            if(str1==str3)
+            {
+                Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
+
+        }
+    }
 }
