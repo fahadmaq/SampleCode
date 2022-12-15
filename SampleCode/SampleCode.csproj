@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.StrtEq</StartupObject>
+    <StartupObject>SampleCode.ToggleChar</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,9 @@
     <Compile Include="Ipayable.cs" />
     <Compile Include="Multitable.cs" />
     <Compile Include="NewArray.cs" />
+    <Compile Include="NewClass.cs" />
+    <Compile Include="Occurence.cs" />
+    <Compile Include="PaliOrNo.cs" />
     <Compile Include="PogramKeywords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
