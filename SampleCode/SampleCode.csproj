@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.StrtEq</StartupObject>
+    <StartupObject>SampleCode.PaliOrNo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,15 +51,22 @@
     <Compile Include="Book.cs" />
     <Compile Include="BookAuth.cs" />
     <Compile Include="DigiCount.cs" />
+    <Compile Include="Emp.cs" />
     <Compile Include="Empcount.cs" />
     <Compile Include="Ext1.cs" />
+    <Compile Include="Hasttabe.cs" />
     <Compile Include="Ipayable.cs" />
     <Compile Include="Multitable.cs" />
     <Compile Include="NewArray.cs" />
+    <Compile Include="NewClass.cs" />
+    <Compile Include="Occurence.cs" />
+    <Compile Include="PaliOrNo.cs" />
     <Compile Include="PogramKeywords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ques.cs" />
     <Compile Include="SaleMa.cs" />
+    <Compile Include="Stack1.cs" />
     <Compile Include="Stdclass.cs" />
     <Compile Include="StringManipulation.cs" />
   </ItemGroup>
