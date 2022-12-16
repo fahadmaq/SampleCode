@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleCode
 {
+    // Icomaprable class and uses program//
     class Prog1
     {
         public class Company : IComparable
