@@ -24,10 +24,10 @@ namespace SampleCode
                 Array.Sort(ch1);
                 Array.Sort(ch2);
 
-                String word1 = new string(ch1);
-                String word2 = new string(ch2);
+                String s1 = new string(ch1);
+                String s2 = new string(ch2);
 
-                if (word1==word2)
+                if (s1==s2)
                 {
                     Console.WriteLine("Strngs are anagram",firstString,secondString);
                 }
