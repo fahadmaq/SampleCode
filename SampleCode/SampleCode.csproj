@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.AnagStr</StartupObject>
+    <StartupObject>SampleCode.Fibonacci</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,7 @@
     <Compile Include="Ext1.cs" />
     <Compile Include="Hasttabe.cs" />
     <Compile Include="Ipayable.cs" />
+    <Compile Include="MaxElem.cs" />
     <Compile Include="MinMaxArr.cs" />
     <Compile Include="Multitable.cs" />
     <Compile Include="NewArray.cs" />
