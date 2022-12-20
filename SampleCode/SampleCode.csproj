@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.Prog1.Program</StartupObject>
+    <StartupObject>SampleCode.AnagStr</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnagStr.cs" />
     <Compile Include="AreaCrcs.cs" />
     <Compile Include="ArrPro.cs" />
     <Compile Include="Book.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Ext1.cs" />
     <Compile Include="Hasttabe.cs" />
     <Compile Include="Ipayable.cs" />
+    <Compile Include="MinMaxArr.cs" />
     <Compile Include="Multitable.cs" />
     <Compile Include="NewArray.cs" />
     <Compile Include="NewClass.cs" />
