@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.Ledgate.Program</StartupObject>
+    <StartupObject>SampleCode.Delg2.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="BKLib.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookAuth.cs" />
+    <Compile Include="Delg2.cs" />
     <Compile Include="DigiCount.cs" />
     <Compile Include="Emp.cs" />
     <Compile Include="Empcount.cs" />
