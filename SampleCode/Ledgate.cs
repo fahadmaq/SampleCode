@@ -22,6 +22,14 @@ namespace SampleCode
             {
                 return name.ToUpper();
             }
+            public int M3(int a, int b)
+            {
+                return a * b;
+            }
+            public int M4(int a, int b)
+            {
+                return a - b;
+            }
         }
         public class Program
         {
@@ -29,14 +37,25 @@ namespace SampleCode
             {
                 Test t1 = new Test();
                 Mydel1 d1 = new Mydel1(t1.M1);
+                d1 += new Mydel1(t1.M3);
+                d1 += new Mydel1(t1.M4);
 
-                Mydel2 d2 = new Mydel2(t1.M2);
 
-                int sum = d1.Invoke(56, 78);
-                Console.WriteLine(sum);
+                Delegate[] List = d1.GetInvocationList();
 
-                string str = d2.Invoke("thunquo");
-                Console.WriteLine(str);
+                foreach (Delegate item in List)
+                {
+                    Console.WriteLine(item.Method);
+                    Console.WriteLine(item.DynamicInvoke(34,67));
+                }
+
+                //Mydel2 d2 = new Mydel2(t1.M2);
+
+                //int sum = d1.Invoke(56, 78);
+                //Console.WriteLine(sum);
+
+                //string str = d2.Invoke("thunquo");
+                //Console.WriteLine(str);
             }
         }
     }
