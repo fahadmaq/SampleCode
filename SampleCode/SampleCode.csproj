@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.Fibonacci</StartupObject>
+    <StartupObject>SampleCode.Ledgate.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="AnagStr.cs" />
     <Compile Include="AreaCrcs.cs" />
     <Compile Include="ArrPro.cs" />
+    <Compile Include="BKLib.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookAuth.cs" />
     <Compile Include="DigiCount.cs" />
@@ -57,12 +58,16 @@
     <Compile Include="Ext1.cs" />
     <Compile Include="Hasttabe.cs" />
     <Compile Include="Ipayable.cs" />
+    <Compile Include="Ledgate.cs" />
     <Compile Include="MaxElem.cs" />
     <Compile Include="MinMaxArr.cs" />
+    <Compile Include="MoveZeros.cs" />
     <Compile Include="Multitable.cs" />
     <Compile Include="NewArray.cs" />
     <Compile Include="NewClass.cs" />
+    <Compile Include="NewList.cs" />
     <Compile Include="Occurence.cs" />
+    <Compile Include="PairAddii.cs" />
     <Compile Include="PaliOrNo.cs" />
     <Compile Include="PogramKeywords.cs" />
     <Compile Include="Prog1.cs" />
