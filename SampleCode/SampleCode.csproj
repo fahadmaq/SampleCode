@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleCode.Delg2.Program</StartupObject>
+    <StartupObject>SampleCode.Program86</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,16 +49,20 @@
     <Compile Include="AnagStr.cs" />
     <Compile Include="AreaCrcs.cs" />
     <Compile Include="ArrPro.cs" />
+    <Compile Include="Bank.cs" />
     <Compile Include="BKLib.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookAuth.cs" />
     <Compile Include="Delg2.cs" />
+    <Compile Include="DelSwi.cs" />
     <Compile Include="DigiCount.cs" />
     <Compile Include="Emp.cs" />
     <Compile Include="Empcount.cs" />
+    <Compile Include="EventBank.cs" />
     <Compile Include="Ext1.cs" />
     <Compile Include="Hasttabe.cs" />
     <Compile Include="Ipayable.cs" />
+    <Compile Include="Ldel.cs" />
     <Compile Include="Ledgate.cs" />
     <Compile Include="MaxElem.cs" />
     <Compile Include="MinMaxArr.cs" />
